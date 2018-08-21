@@ -14,7 +14,14 @@ int main()
     */
     cout << "Wenlong is awesome"
          << endl
-         << "another line";
+         << "another line" 
+         << endl;
+
+    int i = 19;
+    int j = 29;
+    int k = i + j;
+
+    cout << k;
 
     return 0;
 }
